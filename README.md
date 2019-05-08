@@ -1,3 +1,3 @@
 # merchant-portal
 
-[view](https://elastic-raman-9bf8f2.netlify.com/)
+[view](https://optimistic-williams-bc7e6c.netlify.com/)
