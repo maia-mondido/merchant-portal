@@ -1,6 +1,80 @@
-@font-face {
-    font-family: 'Nordea';
-    src: url('/assets/fonts/NordeaSansSmallWeb-Regular.otf') format('truetype');
+  @font-face {
+    font-family: 'Nordea Sans Small Web Regular';
+    src: local('NordeaSansSmallWeb-Regular');
+    font-weight: 500;
+    font-size: 16px;
+
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Light';
+    src: local('NordeaSansSmallWeb-Light');
+    font-weight: 500;
+    font-size: 16px;
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Black';
+    src: local('NordeaSansSmallWeb-Black');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Bold';
+    src: local('NordeaSansSmallWeb-Bold');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Bold Italic';
+    src: local('NordeaSansSmallWeb-BoldItalic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Italic';
+    src: local('NordeaSansSmallWeb-Italic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Light Italic';
+    src: local('NordeaSansSmallWeb-LightItalic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Medium';
+    src: local('NordeaSansSmallWeb-Medium');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Medium Italic';
+    src: local('NordeaSansSmallWeb-MediumItalic');
+  }
+
+  @font-face {
+    font-family: 'Nordea Sans Large Web Regular';
+    src: local('NordeaSansLargeWeb-Regular');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Light';
+    src: local('NordeaSansLargeWeb-Light');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Black';
+    src: local('NordeaSansLargeWeb-Black');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Bold';
+    src: local('NordeaSansLargeWeb-Bold');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Bold Italic';
+    src: local('NordeaSansLargeWeb-BoldItalic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Italic';
+    src: local('NordeaSansLargeWeb-Italic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Light Italic';
+    src: local('NordeaSansLargeWeb-LightItalic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Medium';
+    src: local('NordeaSansLargeWeb-Medium');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Medium Italic';
+    src: local('NordeaSansLargeWeb-MediumItalic');
   }
   
   ul {
@@ -21,6 +95,8 @@
 
   input[type=text], input[type=number] {
     border-radius:  2px;
+    outline: none;
+
   }
  
 
@@ -31,7 +107,7 @@
   }
   
   body {
-    font-family: 'Nordea', Fallback, sans-serif;
+    font-family: 'Nordea Sans Small Web Regular', Fallback, sans-serif;
     background: #F4F2F1;
     margin: 0;
     padding: 0;
@@ -56,12 +132,13 @@
   }
   
   .app-header-label {
-    font-weight: 250;
+    font-family: 'Nordea Sans Small Web Light', Fallback, sans-serif;
     margin-right: 10px;
   }
   
   .merchant-name {
-    font-size: 16px;
+    font-family: 'Nordea Sans Small Web Light', Fallback, sans-serif;
+    font-size: 14px;
     position: relative;
     top: 12px;
     left: calc(50% + 225px);
@@ -148,7 +225,7 @@
 
   ul li {
     padding: 15px 0 10px;
-    color: #00075A;
+    color: #00005E;
     position: relative;
     top: 2px;
   }
@@ -179,6 +256,7 @@
   }
 
   .section-container, h1 {
+    font-family: 'Nordea Sans Small Web Light', Fallback, sans-serif;
     margin-left: 10px;
     margin-top: 20px;
     color: #fff;
@@ -280,7 +358,7 @@
       border: 1px solid #00075A;
       height: 5px; 
       cursor: pointer;     
-      width: 5px;
+      width: 7px;
       padding: 0 5px 0;
       border-radius: 50%;
   }
